@@ -1,0 +1,54 @@
+$color-bg: #1f1f38;
+$color-bg-variant: #2c2c6c;
+$color-primary: #4db5ff;
+$color-primary-variant: rgba(77,181,255, 0.4);
+$color-white: #fff;
+$color-light: rgba(255, 255, 255, 0.6);
+$transition: all 400ms ease;
+
+p{
+    color: $color-light;
+}
+
+
+.about__img{
+    background: black;
+    border-radius: 1rem;
+    
+
+    width: fit-content;
+    img{
+        max-width: 100%;
+        max-height: 70vh;
+        border-radius: 1rem;
+        transform: skew(10deg, 5deg);
+        transition: all 500ms ease;
+        &:hover{
+          transform: skew(0deg, 0deg);
+        }
+  
+    }
+
+    @media (max-width:999px){
+         img{
+
+            display: none;
+        }
+       
+    }
+
+
+}
+
+.about__card{
+    border: 1px solid $color-bg-variant;
+    border-radius: 2rem;
+    padding: 4rem;
+    background: $color-primary;
+    transition: all 500ms ease;
+
+    &:hover{
+        background: transparent;
+        border: 1px solid white;
+    }
+}
