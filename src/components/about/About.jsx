@@ -14,7 +14,7 @@ const About = () => {
 
   <Container className='pt-3'> 
   <Row>
-    <Col lg='5' sm='5' xs='5'>
+    <Col className='d-flex justify-content-center' lg='5' sm='5' xs='5'>
       <div className="about__img">
       <img className=' border rounded' src={IMG} alt="" />
 
@@ -26,7 +26,7 @@ const About = () => {
     </Col>
 
     <Col lg='7'>
-    <Row className='gap-5'>
+    <Row className='d-flex align-center justify-content-around gap-3'>
       <Col className='about__card text-center ' lg='3'>
       <h2 className='mb-3'><SiJsonwebtokens/></h2>
       <h3>Experience</h3>

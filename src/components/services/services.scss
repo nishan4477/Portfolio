@@ -1,0 +1,35 @@
+$color-bg: #1f1f38;
+$color-bg-variant: #2c2c6c;
+$color-primary: #4db5ff;
+$color-primary-variant: rgba(77,181,255, 0.4);
+$color-white: #fff;
+$color-light: rgba(255, 255, 255, 0.6);
+$transition: all 400ms ease;
+
+
+.service__card{
+background: $color-bg-variant;
+border: 1px solid $color-bg-variant;
+padding: 0rem 5rem;
+border-radius: 2rem;
+transition: $transition;
+overflow: hidden;
+&:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.service__head{
+    border: 1px solid $color-primary;
+    border-radius: 0 0 3rem 3rem;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background: $color-primary;
+}
+
+
+
+
+}
+
+

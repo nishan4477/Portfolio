@@ -8,9 +8,9 @@ const Experience = () => {
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
       <Container className="pt-3">
-        <Row >
+        <Row className="d-flex justify-content-between" >
           <Col lg='5' className="ex__card">
-          <div className="pb-2 text-center"><h2>Frontend Development</h2></div> 
+          <div className="pb-4 text-center"><h2>Frontend Development</h2></div> 
             <Row>
               <Col>
             
@@ -64,7 +64,7 @@ const Experience = () => {
           </Col>
 
           <Col lg='5' className="ex__card">
-          <div className="pb-2 text-center"><h2>Backend Development</h2></div> 
+          <div className="pb-4 text-center"><h2>Backend Development</h2></div> 
          
           <Row>
               <Col> 
@@ -108,8 +108,8 @@ const Experience = () => {
 
               <Col>  <Row>
                 <Col><GiCheckMark/></Col>
-                <Col><h4>HTML</h4>
-                 <p>Experienced</p>
+                <Col><h4>Java</h4>
+                 <p>Basic</p>
                 </Col>
               </Row></Col>
             </Row>
