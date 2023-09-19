@@ -17,7 +17,7 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
+      <h5 className="mt-5">Get In Touch</h5>
       <h2>Contact Me</h2>
       <Container>
         <Row className="mt-4 d-flex justify-content-around align-items-center">
